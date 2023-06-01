@@ -1,0 +1,22 @@
+
+ejdev:
+  kafka:
+    topic: order.published
+
+spring:
+  #  kafka:
+  #    bootstrap-servers: broker:9092
+  liquibase:
+    enabled: true
+    url: "jdbc:postgresql://localhost:5432/microservices"
+    user: "microservices"
+    password: "microservices"
+    change-log: "pl/ejdev/publisher/liquibase/main.changelog.kts"
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate.ddl-auto: validate
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:5432/microservices"
+    username: "microservices"
+    password: "microservices"

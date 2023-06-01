@@ -1,0 +1,16 @@
+ejdev:
+  kafka:
+    notification:
+      topic: order.published
+spring:
+  #  kafka:
+  #    bootstrap-servers: broker:9092
+  jpa:
+    hibernate.ddl-auto: validate
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:5432/microservices"
+    username: "microservices"
+    password: "microservices"
+server:
+  port: 8282

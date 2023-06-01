@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/notifications" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/order" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/product" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/publisher" vcs="Git" />
   </component>
 </project>
